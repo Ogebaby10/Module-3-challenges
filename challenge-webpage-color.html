@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Javascript Dom</title>
+    <style>
+        .list1{background-color: plum;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;}
+    #website{font-style: oblique;
+    font-variant: inherit;
+color: coral;}
+    
+        
+    </style>
+</head>
+<body>
+    
+    
+<h1 id="website" class="not">My Webpage</h1>
+
+
+<div id="div1">
+<ul>
+    <li class="list1">Home</li>
+    <li class="list1">Celebrities</li>
+    <li class="list1">Lifestyle</li>
+    <li class="list1">About</li>
+    <li class="list1">Quotes</li>
+    <li class="list1">Contact US</li>
+</ul>
+</div>
+
+    <button id="btn">Click to change background colour<Button</button>
+
+    <script>
+    const btn = document.getElementById('btn');
+    
+    btn.addEventListener('click', function onClick(event) {
+        document.body.style.backgroundColor = 'blue';
+    })
+//    const body = document.body; 
+//    body.style.background = 'green';
+    </script>
+
+
+
+</body>
+</html>
+
+
+
+
+
